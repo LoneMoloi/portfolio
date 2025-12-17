@@ -45,9 +45,9 @@ const Education: React.FC = () => {
   ];
 
   const achievements = [
-    { icon: Trophy, title: 'Dean\'s List', description: 'Academic Excellence' },
-    { icon: Star, title: 'Top 10%', description: 'Class Ranking' },
-    { icon: Target, title: 'Project Leader', description: 'Team Leadership' }
+    { icon: Trophy, title: 'Botswana Accountancy College Girls in ICT Day Hackathon 2025', description: 'Second Position' },
+    { icon: Star, title: 'FNBB Hackathon 2025', description: 'Participant' },
+    { icon: Target, title: 'Project Leader (ABSA Girl Code Hackathon 2025)', description: 'Team Leadership' }
   ];
 
   return (
