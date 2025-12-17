@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
         'Historical data visualization'
       ],
       status: 'In Development',
-      progress: 75,
+      progress: 25,
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -33,8 +33,8 @@ const Projects: React.FC = () => {
         'Teacher-student communication',
         'Attendance monitoring'
       ],
-      status: 'Completed',
-      progress: 100,
+      status: 'In Development',
+      progress: 60,
       color: 'from-green-500 to-emerald-500'
     },
     {
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
         'Real-time monitoring'
       ],
       status: 'In Development',
-      progress: 60,
+      progress: 20,
       color: 'from-red-500 to-pink-500'
     },
     {
