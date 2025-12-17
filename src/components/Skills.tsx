@@ -22,9 +22,7 @@ const Skills: React.FC = () => {
       title: 'System Administration',
       color: 'from-purple-500 to-pink-500',
       skills: [
-        { name: 'Linux/Unix', level: 80, description: 'Server management and configuration' },
         { name: 'Windows Server', level: 75, description: 'Enterprise environments' },
-        { name: 'Shell Scripting', level: 70, description: 'Automation and scripting' },
         { name: 'System Monitoring', level: 75, description: 'Performance optimization' },
         { name: 'Virtualization', level: 70, description: 'VMware and Hyper-V' }
       ]
@@ -34,11 +32,11 @@ const Skills: React.FC = () => {
       title: 'Networking',
       color: 'from-green-500 to-emerald-500',
       skills: [
-        { name: 'TCP/IP', level: 85, description: 'Network protocols and architecture' },
+        { name: 'TCP/IP', level: 95, description: 'Network protocols and architecture' },
         { name: 'Routing & Switching', level: 80, description: 'Cisco and network infrastructure' },
-        { name: 'Network Security', level: 75, description: 'Firewalls and security protocols' },
-        { name: 'Wireless Networks', level: 70, description: 'WiFi and wireless technologies' },
-        { name: 'VPN Configuration', level: 70, description: 'Secure remote connections' }
+        { name: 'Network Security', level: 90, description: 'Firewalls and security protocols' },
+        { name: 'Wireless Networks', level: 80, description: 'WiFi and wireless technologies' },
+        { name: 'VPN Configuration', level: 80, description: 'Secure remote connections' }
       ]
     },
     {
@@ -48,8 +46,8 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'MySQL', level: 80, description: 'Relational database management' },
         { name: 'PostgreSQL', level: 75, description: 'Advanced SQL features' },
-        { name: 'MongoDB', level: 70, description: 'NoSQL document databases' },
-        { name: 'Database Design', level: 85, description: 'Schema design and optimization' },
+        { name: 'MongoDB', level: 80, description: 'NoSQL document databases' },
+        { name: 'Database Design', level: 95, description: 'Schema design and optimization' },
         { name: 'Query Optimization', level: 75, description: 'Performance tuning' }
       ]
     },
@@ -69,7 +67,6 @@ const Skills: React.FC = () => {
       color: 'from-red-500 to-pink-500',
       skills: [
         { name: 'Network Security', level: 75, description: 'Security protocols and best practices' },
-        { name: 'Penetration Testing', level: 65, description: 'Ethical hacking and vulnerability assessment' },
         { name: 'Risk Assessment', level: 70, description: 'Security risk analysis' },
         { name: 'Project Management', level: 80, description: 'Agile and traditional methodologies' },
         { name: 'Technical Writing', level: 85, description: 'Documentation and communication' }
